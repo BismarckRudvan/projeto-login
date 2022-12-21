@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 750px){
     body{
         background: linear-gradient(to bottom, #5F2C82, #4B959A) fixed;
     }
@@ -52,7 +52,7 @@
     div#img{
         position: absolute;
         left: 50%;
-        width: 474.5px;
+        width: 475.5px;
         height: 350px;
         border-radius: 0px 20px 20px 0px;
     }

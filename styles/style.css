@@ -20,6 +20,8 @@ main{
     height: 520px;
     border-radius: 20px;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.527);
+    overflow: hidden;
+    transition: 0.3s;
 }
 
 div#img{

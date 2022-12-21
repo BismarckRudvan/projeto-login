@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    body{
+        background: linear-gradient(to bottom, #5F2C82, #4B959A) fixed;
+    }
+
+    main{
+        width: 80vw;
+        height: 290px;
+    }
+
+    div#img{
+        position: absolute;
+        width: 25vw;
+        height: 290px;
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    article h2, p#text{
+        padding-left: 25vw;
+    }
+
+    article p#login, p#senha{
+        text-align: left;
+        margin-left: 26vw;
+        width: 51.6vw;
+    }
+
+    article #iemail, #isenha{
+        width: 46.3vw;
+    }
+
+    article #entrar{
+        margin-left: 26vw;
+        width: 53vw;
+    }
+
+    article #esqueci{
+        margin-left: 26vw;
+        width: 50vw; 
+    }
+}
+
+
+@media screen and (min-width: 950px) {
+    main{
+        width: 949px;
+        height: 350px;
+    }
+
+    div#img{
+        position: absolute;
+        left: 50%;
+        width: 474.5px;
+        height: 350px;
+        border-radius: 0px 20px 20px 0px;
+    }
+
+    article h2{
+        text-align: center;
+        padding: 10px;
+        width: 454px;
+        font-size: 2em;
+    }
+
+    article p#text{
+        padding: 10px;
+        width: 454px;
+        font-size: 1em;
+        padding-left: 1px;
+    }
+
+    article p#login, p#senha{
+        text-align: left;
+        margin-left: 9px;
+        margin-top: 10px;
+        width: 450px;
+    }
+
+    article #iemail, #isenha{
+        width: 409.5px;
+    }
+
+    article p#senha{
+        margin-top: 5px;
+    }
+
+    article #entrar{
+        margin-left: 9px;
+        width: 457px;
+    }
+
+    article #esqueci{
+        margin-left: 9px;
+        width: 435px; 
+    }
+}
+

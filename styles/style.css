@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #5F2C82;
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 250px;
+    height: 520px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.527);
+}
+
+div#img{
+    background: url(../imagens/pexels-tobias-bjørkli-1562058.jpg) center center no-repeat fixed;
+    background-size: cover;
+    border-radius:20px 20px 0px 0px ;
+    height: 203px;
+}
+
+article > h2{
+    padding: 10px;
+    text-align: center;
+}
+
+article > p#text{
+    font-size: 0.8em;
+    margin: 0px 9px;
+}
+
+#login, #senha{
+    margin: auto;
+    padding-left: 7px;
+    margin-top: 5px;
+    text-align: center;
+    background-color: #5F2C82;
+    color: white;
+    width: 230px;
+    border-radius: 10px;
+}
+
+#iemail, #isenha{
+    width: 189px;
+    height: 30px;
+    padding: 4px;
+    border-radius: 10px;
+    font-size: 1em;
+    border: 2px solid #5F2C82;
+    background-color: #8fcecc;
+}
+
+#entrar{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    width: 230px;
+    font-size: 1em;
+    background-color: #489b98;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    width: 206px;
+    font-size: 1em;
+    color: #214241;
+    border: 1px solid #489b98;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#iemail:focus-within, #isenha:focus-within{
+    background-color: white;
+}
+
+#mail{
+    font-size: 1em;
+}
+
+#entrar:hover{
+    cursor: pointer;
+    background-color: #214241;
+}
+
+#esqueci:hover{
+    background-color: #489b98;
+    color: white;
+}
+

@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 768px){
     body{
-        background: linear-gradient(to bottom, #5F2C82, #4B959A) fixed;
+        background: linear-gradient(to bottom, #5F2C82, #4B959A);
     }
 
     main{

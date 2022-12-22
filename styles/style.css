@@ -6,6 +6,11 @@
     padding: 0px;
 }
 
+html{ 
+    width: 100vw;
+    height: 100vh;
+}
+
 body{
     background-color: #5F2C82;
 }
@@ -31,15 +36,10 @@ main{
 }
 
 div#img{
-    display: block;
     background: url(../imagens/pexels-tobias-bjørkli-1562058.jpg) center
     right no-repeat fixed;
     background-size: cover;
     height: 40%;
-}
-
-article{
-    display: block;
 }
 
 article > h2{

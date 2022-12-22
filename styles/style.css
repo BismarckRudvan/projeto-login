@@ -11,10 +11,8 @@ body{
 }
 
 main{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: auto;
+    margin-top: 10vh;
     background-color: white;
     width: 250px;
     height: 520px;
@@ -22,10 +20,18 @@ main{
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.527);
     overflow: hidden;
     transition: 0.3s;
+    animation: flutuar 4.5s ease-in-out infinite;
+}
+
+@keyframes flutuar{
+    0%{transform: translateY(0px);}
+    50% {transform: translateY(-30px);}
+    100% {transform: translateY(0px);}
 }
 
 div#img{
-    background: url(../imagens/pexels-tobias-bjørkli-1562058.jpg) top left no-repeat fixed;
+    background: url(../imagens/pexels-tobias-bjørkli-1562058.jpg) center
+    right no-repeat fixed;
     background-size: cover;
     border-radius:20px 20px 0px 0px ;
     height: 205px;

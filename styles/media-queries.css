@@ -6,6 +6,7 @@
     }
 
     main{
+        margin-top: 25vh;
         width: 80vw;
         height: 290px;
     }
@@ -45,6 +46,7 @@
 
 @media screen and (min-width: 950px) {
     main{
+        margin-top: 23vh;
         width: 949px;
         height: 350px;
     }

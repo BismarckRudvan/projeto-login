@@ -12,34 +12,32 @@
     }
 
     div#img{
-        position: absolute;
-        width: 25vw;
-        height: 290px;
-        border-radius: 20px 0px 0px 20px;
+        float: left;
+        width: 31%;
+        height: 100%;
     }
 
-    article h2, p#text{
-        padding-left: 25vw;
+    article{
+        float: right;
+        width: 69%;
     }
 
-    article p#login, p#senha{
+    main>article p#login, p#senha{
         text-align: left;
-        margin-left: 26vw;
-        width: 51.6vw;
+        width: 94%;
+        height: 10%;
     }
 
     article #iemail, #isenha{
-        width: 46.3vw;
+        width: 90%;
     }
 
     article #entrar{
-        margin-left: 26vw;
-        width: 53vw;
+        width: 95%;
     }
 
     article #esqueci{
-        margin-left: 26vw;
-        width: 50vw; 
+        width: 90%; 
     }
 }
 
@@ -52,50 +50,26 @@
     }
 
     div#img{
-        position: absolute;
-        left: 50%;
-        width: 475.6px;
-        height: 350px;
-        border-radius: 0px 20px 20px 0px;
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    article {
+        float: left;
+        width: 50%;
     }
 
     article h2{
         text-align: center;
         padding: 10px;
-        width: 454px;
         font-size: 2em;
     }
 
     article p#text{
         padding: 10px;
-        width: 454px;
         font-size: 1em;
         padding-left: 1px;
-    }
-
-    article p#login, p#senha{
-        text-align: left;
-        margin-left: 9px;
-        margin-top: 10px;
-        width: 450px;
-    }
-
-    article #iemail, #isenha{
-        width: 409.5px;
-    }
-
-    article p#senha{
-        margin-top: 5px;
-    }
-
-    article #entrar{
-        margin-left: 9px;
-        width: 457px;
-    }
-
-    article #esqueci{
-        margin-left: 9px;
-        width: 435px; 
-    }
+    } 
 }
 

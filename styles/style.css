@@ -11,6 +11,7 @@ body{
 }
 
 main{
+    position: relative;
     margin: auto;
     margin-top: 12vh;
     background-color: white;
@@ -30,11 +31,15 @@ main{
 }
 
 div#img{
+    display: block;
     background: url(../imagens/pexels-tobias-bjørkli-1562058.jpg) center
     right no-repeat fixed;
     background-size: cover;
-    border-radius:20px 20px 0px 0px ;
-    height: 205px;
+    height: 40%;
+}
+
+article{
+    display: block;
 }
 
 article > h2{
@@ -47,19 +52,19 @@ article > p#text{
     margin: 0px 9px;
 }
 
-#login, #senha{
+p#login, p#senha{
     margin: auto;
     padding-left: 7px;
     margin-top: 5px;
     text-align: center;
     background-color: #5F2C82;
     color: white;
-    width: 230px;
+    width: 93%;
     border-radius: 10px;
 }
 
 #iemail, #isenha{
-    width: 189px;
+    width: 82%;
     height: 30px;
     padding: 4px;
     border-radius: 10px;

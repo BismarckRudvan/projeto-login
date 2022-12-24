@@ -26,7 +26,7 @@ main{
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.527);
     overflow: hidden;
     transition: 0.3s;
-    animation: flutuar 4.5s ease-in-out infinite;
+    animation: flutuar 3s ease-in-out infinite;
 }
 
 @keyframes flutuar{

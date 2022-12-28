@@ -25,7 +25,7 @@ main{
     border-radius: 20px;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.527);
     overflow: hidden;
-    transition: 0.3s;
+    transition:all 0.3s linear;
     animation: flutuar 3s ease-in-out infinite;
 }
 

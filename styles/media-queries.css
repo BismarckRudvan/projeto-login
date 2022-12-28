@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 780px){
     body{
         background: linear-gradient(to bottom, #5F2C82, #4B959A);
     }
@@ -42,7 +42,7 @@
 }
 
 
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 1050px) {
     main{
         margin-top: 23vh;
         width: 949px;
